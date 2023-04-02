@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div class="center">
-        <form>
-            <input type="text" name="display" disabled>
-            <div class="buttons">
-                <input type="button" value="7">
-                <input type="button" value="8">
-                <input type="button" value="9">
-                <input type="button" value="/"><br>
-                <input type="button" value="4">
-                <input type="button" value="5">
-                <input type="button" value="6">
-                <input type="button" value="*"><br>
-                <input type="button" value="1">
-                <input type="button" value="2">
-                <input type="button" value="3">
-                <input type="button" value="-"><br>
-                <input type="button" value=".">
-                <input type="button" value="0">
-                <input type="button" value="+">
-                <input type="button" id="clear" value="C"><br>
-                <input type="button" id="equal" value="=">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://code.jquery.com/jquery-3.6.4.js"
+            integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="center">
+            <form name="forms">
+                <input type="text" id="display" name="display" disabled />
+                <div class="buttons">
+                    <input type="button" id="seven" value="7" />
+                    <input type="button" id="eight" value="8" />
+                    <input type="button" id="nine" value="9" />
+                    <input type="button" id="divide" value="/" /><br />
+                    <input type="button" id="four" value="4" />
+                    <input type="button" id="five" value="5" />
+                    <input type="button" id="six" value="6" />
+                    <input type="button" id="multi" value="*" /><br />
+                    <input type="button" id="one" value="1" />
+                    <input type="button" id="two" value="2" />
+                    <input type="button" id="three" value="3" />
+                    <input type="button" id="subs" value="-" /><br />
+                    <input type="button" id="dot" value="." />
+                    <input type="button" id="zero" value="0" />
+                    <input type="button" id="add" value="+" />
+                    <input type="button" id="clear" value="C" /><br />
+                    <input type="button" id="equal" value="=" />
+                </div>
+            </form>
+        </div>
 
-            </div>
-        </form>
-    </div>
-
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
