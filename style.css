@@ -63,10 +63,13 @@ input#clear{
     color: white;
 }
 
-input#equal{
-    width: 275px;
+input#equal, #delete{
+    width: 137px;
     margin: 10px 0 10px 0;
     font-size: 30px;
+}
+
+input#delete{
     color: white;
     background: #ff3d00;
     border: 1px solid #b32a00;
