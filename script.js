@@ -1,4 +1,6 @@
 $(document).ready(function (e) {
+    var length = $("#display").val().length;
+
     $("#one").click(function () {
         document.forms.display.value += 1;
     });
@@ -178,17 +180,22 @@ $(document).ready(function (e) {
             if (display.value == "") {
                 alert("Please enter any numbers to calculate!");
             } else {
-                document.forms.display.value = eval(document.forms.display.value);
+                document.forms.display.value = eval(
+                    document.forms.display.value
+                );
             }
         }
     });
 
+    $("#delete").click(function () {
+        document.forms.display.value = document.forms.display.value.slice(0, -1);
+    });
 
     $("#clear").click(function () {
         document.forms.display.value = "";
     });
 
     $(document).on("keypress", function (e) {
-        console.log(e.which);
+        console.log($("#display").val());
     });
 });

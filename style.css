@@ -74,3 +74,9 @@ input#delete{
     background: #ff3d00;
     border: 1px solid #b32a00;
 }
+
+input#equal{
+    color: white;
+    background: #1a4beb;
+    border: 1px solid #133bbe;
+}
