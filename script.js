@@ -1,5 +1,4 @@
 $(document).ready(function (e) {
-    var length = $("#display").val().length;
 
     $("#one").click(function () {
         document.forms.display.value += 1;
