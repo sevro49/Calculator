@@ -243,7 +243,7 @@ $(document).ready(function (e) {
         document.forms.display.value = "";
     });
 
-    $(document).on("keypress", function (e) {
-        console.log(count);
-    });
+    // $(document).on("keypress", function (e) {
+    //     console.log(count);
+    // });
 });
